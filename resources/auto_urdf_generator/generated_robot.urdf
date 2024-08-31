@@ -1,0 +1,216 @@
+
+    <!-- URDF Template -->
+    
+  <link name="FL_UPPER_LEG">
+
+    <!-- UPPER LEG LINK VISUAL -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="path/to/mesh.dae"/>
+      </geometry>
+      <material name="fthigh_mat">
+        <color rgba="0.1 0.1 0.3 1"/>
+      </material>
+    </visual>
+
+    <!-- UPPER LEG LINK COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0.037450000000000004 -0.16"/>
+      <geometry>
+        <sphere radius="0.0185"/>
+      </geometry>
+    </collision>
+    
+  <link name="FL_LOWER_LEG">
+
+    <!-- LOWER LEG LINK VISUAL -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/solo_lower_leg_left_side.dae"/>
+      </geometry>
+      <material name="fshin_mat">
+        <color rgba="0.1 0.2 0.7 0.4"/>
+      </material>
+    </visual>
+    
+    <!-- LOWER LEG LINK COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0.015 -0.08"/>
+      <geometry>
+        <box size="0.02 0.012 0.11"/>
+      </geometry>
+    </collision>
+    
+    <!-- FOOT COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.0185"/>
+      </geometry>
+    </collision>
+
+    <!-- ... (existing code) ... -->
+  </link>
+    
+  <link name="FR_UPPER_LEG">
+
+    <!-- UPPER LEG LINK VISUAL -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="path/to/mesh.dae"/>
+      </geometry>
+      <material name="fthigh_mat">
+        <color rgba="0.1 0.1 0.3 1"/>
+      </material>
+    </visual>
+
+    <!-- UPPER LEG LINK COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 -0.037450000000000004 -0.16"/>
+      <geometry>
+        <sphere radius="0.0185"/>
+      </geometry>
+    </collision>
+    
+  <link name="FR_LOWER_LEG">
+
+    <!-- LOWER LEG LINK VISUAL -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/solo_lower_leg_left_side.dae"/>
+      </geometry>
+      <material name="fshin_mat">
+        <color rgba="0.1 0.2 0.7 0.4"/>
+      </material>
+    </visual>
+    
+    <!-- LOWER LEG LINK COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 -0.015 -0.08"/>
+      <geometry>
+        <box size="0.02 0.012 0.11"/>
+      </geometry>
+    </collision>
+    
+    <!-- FOOT COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.0185"/>
+      </geometry>
+    </collision>
+
+    <!-- ... (existing code) ... -->
+  </link>
+    
+  <link name="HL_UPPER_LEG">
+
+    <!-- UPPER LEG LINK VISUAL -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="path/to/mesh.dae"/>
+      </geometry>
+      <material name="fthigh_mat">
+        <color rgba="0.1 0.1 0.3 1"/>
+      </material>
+    </visual>
+
+    <!-- UPPER LEG LINK COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0.037450000000000004 -0.16"/>
+      <geometry>
+        <sphere radius="0.0185"/>
+      </geometry>
+    </collision>
+    
+  <link name="HL_LOWER_LEG">
+
+    <!-- LOWER LEG LINK VISUAL -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/solo_lower_leg_left_side.dae"/>
+      </geometry>
+      <material name="fshin_mat">
+        <color rgba="0.1 0.2 0.7 0.4"/>
+      </material>
+    </visual>
+    
+    <!-- LOWER LEG LINK COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0.015 -0.08"/>
+      <geometry>
+        <box size="0.02 0.012 0.11"/>
+      </geometry>
+    </collision>
+    
+    <!-- FOOT COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.0185"/>
+      </geometry>
+    </collision>
+
+    <!-- ... (existing code) ... -->
+  </link>
+    
+  <link name="HR_UPPER_LEG">
+
+    <!-- UPPER LEG LINK VISUAL -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="path/to/mesh.dae"/>
+      </geometry>
+      <material name="fthigh_mat">
+        <color rgba="0.1 0.1 0.3 1"/>
+      </material>
+    </visual>
+
+    <!-- UPPER LEG LINK COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 -0.037450000000000004 -0.16"/>
+      <geometry>
+        <sphere radius="0.0185"/>
+      </geometry>
+    </collision>
+    
+  <link name="HR_LOWER_LEG">
+
+    <!-- LOWER LEG LINK VISUAL -->
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <mesh filename="../meshes/solo_lower_leg_left_side.dae"/>
+      </geometry>
+      <material name="fshin_mat">
+        <color rgba="0.1 0.2 0.7 0.4"/>
+      </material>
+    </visual>
+    
+    <!-- LOWER LEG LINK COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 -0.015 -0.08"/>
+      <geometry>
+        <box size="0.02 0.012 0.11"/>
+      </geometry>
+    </collision>
+    
+    <!-- FOOT COLLISION -->
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <sphere radius="0.0185"/>
+      </geometry>
+    </collision>
+
+    <!-- ... (existing code) ... -->
+  </link>
+    
+    

@@ -1,0 +1,6 @@
+leg:
+  radius_upper_leg: 0.0185
+  radius_upper_foot: 0.0159
+  origin_xyz: [0, 0.03745, -0.16]
+  material_color: [0.1, 0.1, 0.3, 1]
+  mesh_filename: "path/to/mesh.dae"
